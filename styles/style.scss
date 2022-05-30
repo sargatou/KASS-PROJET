@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+}
+.entete {
+  background: rgba(23, 22, 22, 0.88);
+  height: 49px;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  text-align: center;
+  margin: 10px 0px;
+  padding: 10px;
+}
+.entete__des {
+  // position: absolute;
+  color: #ffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+}
+.head {
+  height: 150px;
+  top: 64px;
+  // display: flex;
+  background: #ffffff;
+}
+.head__logo {
+  height: 145px;
+  padding-left: 47px;
+}
+.logo {
+  width: 27px;
+  height: 40px;
+  border-radius: 50px;
+  margin-left: 108px;
+  background: linear-gradient(
+    180.19deg,
+    rgba(236, 192, 38, 0.91) 0.17%,
+    rgba(125, 236, 38, 0.6279) 142.47%
+  );
+}
+.head__titre {
+  height: 36px;
+  margin-left: 58px;
+  font-family: "Inter";
+  font-style: normal;
+  // font-weight: 200;
+  font-size: 25px;
+  line-height: 42px;
+  color: #86d04b;
+}
+.head__des {
+  position: absolute;
+  height: 49px;
+  left: 70px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: #000000;
+}
+.line1 {
+  width: 129px;
+  height: 0;
+  border: 1px solid #00000059;
+  margin-top: -92px;
+  margin-left: 242px;
+  position: absolute;
+  transform: rotate(90deg);
+}
+.line2 {
+  width: 129px;
+  position: absolute;
+  height: 0;
+  border: 1px solid #00000059;
+  margin-top: -92px;
+  left: 1090px;
+  transform: rotate(90deg);
+}
+#maRecherche {
+  width: 509px;
+  height: 29px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-left: 407px;
+  padding: 0 10px;
+  font-family: Italianno;
+  font-size: 15px;
+  font-style: italic;
+  position: absolute;
+  top: 104px;
+}
+.seacrh__loupe {
+  width: 29px;
+  height: 26px;
+  border-radius: 0px 15px 15px 0px;
+  position: absolute;
+  top: 106px;
+  left: 879px;
+}
+.client {
+  width: 100px;
+  height: 38px;
+  cursor: pointer;
+  border: 1px solid #000;
+  position: absolute;
+  top: 99px;
+  left: 1018px;
+}
+.connexion__texte {
+  position: absolute;
+  width: 202px;
+  height: 55px;
+  left: 1180px;
+  top: 114px;
+  font-family: "Inter";
+  font-style: normal;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #000;
+}
+.connexion__img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 81px;
+  left: 1205px;
+  cursor: pointer;
+}
+.commande__img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 81px;
+  cursor: pointer;
+  left: 1350px;
+  text-transform: none;
+}
+.commande__panier {
+  position: absolute;
+  width: 202px;
+  height: 55px;
+  left: 1330px;
+  text-decoration: none;
+  top: 118px;
+  font-family: "Inter";
+  font-style: normal;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000;
+}
+.line3 {
+  position: absolute;
+  width: 100vw;
+  height: 0px;
+  left: 0px;
+  top: 187px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+}
